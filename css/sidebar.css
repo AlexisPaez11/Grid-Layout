@@ -1,0 +1,11 @@
+@import url(./mini-calendar.css);
+@import url(./search.css);
+@import url(./reminders.css);
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+}

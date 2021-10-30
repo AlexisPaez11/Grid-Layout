@@ -1,0 +1,33 @@
+.reminders {
+    inline-size: 12.25rem;
+}
+
+.reminders-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: .5rem;
+}
+
+.reminders-header span {
+    font: var(--font1-medium);
+}
+
+.reminders-header i {
+    font-size: 1.5rem;
+}
+
+.reminders-list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.reminders-check i,
+.reminders-check span {
+    vertical-align: middle;
+}
+
+.reminders-check i {
+    font-size: 1.5rem;
+}
